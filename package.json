@@ -1,22 +1,27 @@
 {
-  "name": "my-ext",
-  "version": "0.1.6",
-  "private": true,
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
-    "adm-zip": "^0.4.7",
-    "react-scripts": "1.0.2",
-    "webstore-upload": "^0.0.7"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "zip": "node scripts/zip.js",
-    "upload": "node scripts/upload.js"
-  }
+    "name": "my-ext",
+    "version": "0.1.7",
+    "private": true,
+    "dependencies": {
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4"
+    },
+    "devDependencies": {
+        "adm-zip": "^0.4.7",
+        "react-scripts": "1.0.2",
+        "version-everything": "^0.1.2",
+        "webstore-upload": "^0.0.7"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "zip": "node scripts/zip.js",
+        "upload": "node scripts/upload.js",
+        "version": "version-everything && git add -u"
+    },
+    "version_files": [
+        "public/manifest.json"
+    ]
 }
