@@ -14,7 +14,7 @@ const uploadOptions = {
             zip: `${process.cwd()}/bundle.zip`
         }
     },
-    uploadExtensions : ['my_ext']
+    uploadExtensions: ['my_ext']
 };
 
 webstore_upload(uploadOptions, 'default')
