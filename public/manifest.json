@@ -1,15 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ],
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "manifest_version": 2,
+  "name": "ext-tutorial",
+  "description": "...",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_popup": "index.html"
+  }
 }
