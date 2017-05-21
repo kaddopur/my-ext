@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ext-tutorial",
+  "name": "my-ext",
   "description": "...",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "browser_action": {
     "default_popup": "index.html"
   }
